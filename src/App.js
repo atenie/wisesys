@@ -21,7 +21,7 @@ class App extends Component {
               }}
             >
               <div
-                className="col-xs-0 col-sm-0 col-md-0 col-lg-6 col-xl-6 col-xxl-6 flex-xl-grow-1 flex-xxl-grow-1 d-flex align-content-end flex-column"
+                className="col-xs-0 col-sm-0 col-md-0 col-lg-6 col-xl-6 col-xxl-6 flex-xl-grow-1 flex-xxl-grow-1  d-flex justify-content-end flex-column"
                 style={{
                   backgroundColor: "#013243",
                   overflow: "hidden",
@@ -30,7 +30,7 @@ class App extends Component {
                 <Promo></Promo>
               </div>
               <div
-                className="col-xs-0 col-sm-0 col-md-0 col-lg-6 col-xl-6 col-xxl-6 flex-xl-grow-1 flex-xxl-grow-1"
+                className="col-xs-0 col-sm-0 col-md-0 col-lg-6 col-xl-6 col-xxl-6 flex-xl-grow-1 flex-xxl-grow-1 d-flex"
                 style={{
                   backgroundColor: "white",
                 }}

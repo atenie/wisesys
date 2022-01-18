@@ -3,19 +3,19 @@ import image from "../scss/iPhone Mockup.png";
 
 const Promo = () => {
   return (
-    <>
-      <h1 className="text-center pt-5" style={{ color: "white" }}>
-        Gradie
+    <div className="d-flex flex-column align-content-end  ">
+      <h1 className="text-center" style={{ color: "white" }}>
+        <b>Gradie</b>
       </h1>
       <p className="text-center " style={{ color: "#86BFD3" }}>
         Beautiful gradients in seconds
       </p>
       <img
         src={image}
-        style={{ width: "inherit", height: "inherit", objectFit: "scale-down" }}
-        className="mt-auto pt-auto"
+        style={{ width: "315px", objectFit: "contain" }}
+        className="align-self-center align-self-end"
       ></img>
-    </>
+    </div>
   );
 };
 
